@@ -1,0 +1,74 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-right: -80px;
+}
+.jumbotron {
+	text-align: center;
+	background-image: url('../images/GroundBackground.jpg'); 
+	margin-bottom: -20px;
+	background-attachment: fixed;
+}
+.jumbotron h1 {
+	margin-top: 0px;
+	margin-bottom: 300px;
+	color: white;
+}
+.row {
+	color: black;
+    margin-top: 50px;
+}
+.col-md-4 h2 {
+    text-transform: uppercase;
+}    
+#Spinosaurus {
+	position: relative;
+    top: -120px;
+}
+#SpinosaurusText {
+    position: relative;
+    top: 100px;
+    left: 10px;
+    margin-right: 50px;
+    color: white;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+    
+    .jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+    #Spinosaurus {
+    position: relative;
+    left: 00px;
+    top: 120px;
+}
+    #SpinosaurusText {
+    position: relative;
+    top: 200px;
+    left: 120px;
+    margin-right: 320px;
+}
+
+@media (max-width: 991px) {
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+    .jumbotron p {
+    	padding: 0 10px;
+    }
+}
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+    .jumbotron p {
+    	font-size: 16px;
+    	padding: 0;
+    }
+}
+
